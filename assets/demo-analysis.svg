@@ -1,0 +1,74 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7E6"/>
+      <stop offset="1" stop-color="#F0F8FF"/>
+    </linearGradient>
+    <linearGradient id="head2" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#C97A00"/>
+      <stop offset="1" stop-color="#127475"/>
+    </linearGradient>
+    <filter id="shadow2" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#B5B7C8" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="700" rx="28" fill="url(#bg2)"/>
+  <rect x="70" y="55" width="1060" height="590" rx="26" fill="#FFFFFF" filter="url(#shadow2)"/>
+  <rect x="70" y="55" width="1060" height="78" rx="26" fill="url(#head2)"/>
+  <text x="112" y="102" fill="#FFFFFF" font-size="28" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Traffic Analysis and Visualization</text>
+
+  <rect x="105" y="165" width="460" height="195" rx="22" fill="#FFFCF6" stroke="#F1D7A9"/>
+  <text x="130" y="205" fill="#5B461F" font-size="22" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Temperature vs Traffic</text>
+  <line x1="150" y1="322" x2="520" y2="322" stroke="#C9B48E" stroke-width="3"/>
+  <line x1="150" y1="225" x2="150" y2="322" stroke="#C9B48E" stroke-width="3"/>
+  <circle cx="205" cy="300" r="7" fill="#F18F01"/>
+  <circle cx="245" cy="285" r="7" fill="#F18F01"/>
+  <circle cx="280" cy="267" r="7" fill="#F18F01"/>
+  <circle cx="322" cy="248" r="7" fill="#F18F01"/>
+  <circle cx="360" cy="232" r="7" fill="#F18F01"/>
+  <circle cx="405" cy="218" r="7" fill="#F18F01"/>
+  <circle cx="448" cy="198" r="7" fill="#F18F01"/>
+  <polyline points="205,300 245,285 280,267 322,248 360,232 405,218 448,198" stroke="#D65A31" stroke-width="4" fill="none"/>
+
+  <rect x="605" y="165" width="460" height="195" rx="22" fill="#F7FFFD" stroke="#BCE7E1"/>
+  <text x="630" y="205" fill="#214C49" font-size="22" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Cloud Coverage vs Traffic</text>
+  <line x1="650" y1="322" x2="1020" y2="322" stroke="#A9CFC8" stroke-width="3"/>
+  <line x1="650" y1="225" x2="650" y2="322" stroke="#A9CFC8" stroke-width="3"/>
+  <circle cx="700" cy="295" r="7" fill="#0E9594"/>
+  <circle cx="748" cy="282" r="7" fill="#0E9594"/>
+  <circle cx="792" cy="270" r="7" fill="#0E9594"/>
+  <circle cx="840" cy="250" r="7" fill="#0E9594"/>
+  <circle cx="892" cy="245" r="7" fill="#0E9594"/>
+  <circle cx="940" cy="230" r="7" fill="#0E9594"/>
+  <circle cx="985" cy="220" r="7" fill="#0E9594"/>
+
+  <rect x="105" y="392" width="460" height="210" rx="22" fill="#F9FBFF" stroke="#C9DBF5"/>
+  <text x="130" y="432" fill="#223C58" font-size="22" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Correlation Heatmap</text>
+  <rect x="155" y="455" width="72" height="50" fill="#D9EFF9"/>
+  <rect x="227" y="455" width="72" height="50" fill="#BADCF5"/>
+  <rect x="299" y="455" width="72" height="50" fill="#8DBDEB"/>
+  <rect x="371" y="455" width="72" height="50" fill="#5A9BD4"/>
+  <rect x="443" y="455" width="72" height="50" fill="#2F6690"/>
+  <rect x="155" y="505" width="72" height="50" fill="#C6E6F7"/>
+  <rect x="227" y="505" width="72" height="50" fill="#DCEFFC"/>
+  <rect x="299" y="505" width="72" height="50" fill="#A8CFEF"/>
+  <rect x="371" y="505" width="72" height="50" fill="#6EAAD9"/>
+  <rect x="443" y="505" width="72" height="50" fill="#4780B4"/>
+  <text x="182" y="487" fill="#17324D" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">temp</text>
+  <text x="251" y="487" fill="#17324D" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">rain</text>
+  <text x="321" y="487" fill="#17324D" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">snow</text>
+  <text x="388" y="487" fill="#FFFFFF" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">cloud</text>
+  <text x="456" y="487" fill="#FFFFFF" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">vol</text>
+
+  <rect x="605" y="392" width="460" height="210" rx="22" fill="#FFF9FB" stroke="#F0CBD6"/>
+  <text x="630" y="432" fill="#5A2B35" font-size="22" font-family="Segoe UI, Arial, sans-serif" font-weight="700">EDA Insights</text>
+  <rect x="640" y="458" width="390" height="34" rx="10" fill="#FCEFF3"/>
+  <rect x="640" y="505" width="330" height="34" rx="10" fill="#F9E1E8"/>
+  <rect x="640" y="552" width="360" height="34" rx="10" fill="#F6D6E0"/>
+  <text x="660" y="481" fill="#6A3C46" font-size="18" font-family="Segoe UI, Arial, sans-serif">Peak traffic appears around high daytime activity.</text>
+  <text x="660" y="528" fill="#6A3C46" font-size="18" font-family="Segoe UI, Arial, sans-serif">Weather and time features influence volume.</text>
+  <text x="660" y="575" fill="#6A3C46" font-size="18" font-family="Segoe UI, Arial, sans-serif">Correlation map helps select useful predictors.</text>
+
+  <text x="110" y="665" fill="#5A6C7E" font-size="18" font-family="Segoe UI, Arial, sans-serif">Illustrative analysis mockup for README presentation</text>
+</svg>

@@ -1,0 +1,59 @@
+<svg width="1200" height="980" viewBox="0 0 1200 980" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1200" y2="980" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4FBFF"/>
+      <stop offset="1" stop-color="#FFF7EF"/>
+    </linearGradient>
+    <marker id="arrowF" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#5C7892"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="980" rx="28" fill="url(#fbg)"/>
+  <text x="600" y="72" text-anchor="middle" fill="#23455E" font-size="34" font-family="Segoe UI, Arial, sans-serif" font-weight="800">System Flowchart</text>
+
+  <rect x="430" y="110" width="340" height="78" rx="39" fill="#0B7A75"/>
+  <text x="600" y="158" text-anchor="middle" fill="#FFFFFF" font-size="26" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Start Application</text>
+
+  <line x1="600" y1="188" x2="600" y2="235" stroke="#5C7892" stroke-width="5" marker-end="url(#arrowF)"/>
+
+  <rect x="390" y="245" width="420" height="86" rx="24" fill="#FFFFFF" stroke="#C7DBEC" stroke-width="3"/>
+  <text x="600" y="283" text-anchor="middle" fill="#264962" font-size="24" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Load Dataset</text>
+  <text x="600" y="314" text-anchor="middle" fill="#516B7F" font-size="18" font-family="Segoe UI, Arial, sans-serif">Read DataSet/traffic.csv with Pandas</text>
+
+  <line x1="600" y1="331" x2="600" y2="378" stroke="#5C7892" stroke-width="5" marker-end="url(#arrowF)"/>
+
+  <rect x="390" y="388" width="420" height="86" rx="24" fill="#FFFFFF" stroke="#C7DBEC" stroke-width="3"/>
+  <text x="600" y="426" text-anchor="middle" fill="#264962" font-size="24" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Display Analytics</text>
+  <text x="600" y="457" text-anchor="middle" fill="#516B7F" font-size="18" font-family="Segoe UI, Arial, sans-serif">Raw data, summary, missing values, charts</text>
+
+  <line x1="600" y1="474" x2="600" y2="521" stroke="#5C7892" stroke-width="5" marker-end="url(#arrowF)"/>
+
+  <rect x="390" y="531" width="420" height="86" rx="24" fill="#FFFFFF" stroke="#C7DBEC" stroke-width="3"/>
+  <text x="600" y="569" text-anchor="middle" fill="#264962" font-size="24" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Preprocess Data</text>
+  <text x="600" y="600" text-anchor="middle" fill="#516B7F" font-size="18" font-family="Segoe UI, Arial, sans-serif">Drop nulls, encode weather, extract date features</text>
+
+  <line x1="600" y1="617" x2="600" y2="664" stroke="#5C7892" stroke-width="5" marker-end="url(#arrowF)"/>
+
+  <rect x="390" y="674" width="420" height="86" rx="24" fill="#FFFFFF" stroke="#C7DBEC" stroke-width="3"/>
+  <text x="600" y="712" text-anchor="middle" fill="#264962" font-size="24" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Train Model</text>
+  <text x="600" y="743" text-anchor="middle" fill="#516B7F" font-size="18" font-family="Segoe UI, Arial, sans-serif">Fit RandomForestRegressor and evaluate R2 score</text>
+
+  <line x1="600" y1="760" x2="600" y2="795" stroke="#5C7892" stroke-width="5" marker-end="url(#arrowF)"/>
+
+  <polygon points="600,805 770,885 600,965 430,885" fill="#FFF8E8" stroke="#E6C88F" stroke-width="3"/>
+  <text x="600" y="872" text-anchor="middle" fill="#755416" font-size="24" font-family="Segoe UI, Arial, sans-serif" font-weight="700">User Enters Inputs?</text>
+  <text x="600" y="905" text-anchor="middle" fill="#8A6C34" font-size="18" font-family="Segoe UI, Arial, sans-serif">Temperature, rain, snow, cloud, weather, time</text>
+
+  <line x1="430" y1="885" x2="250" y2="885" stroke="#5C7892" stroke-width="5"/>
+  <line x1="250" y1="885" x2="250" y2="430" stroke="#5C7892" stroke-width="5"/>
+  <line x1="250" y1="430" x2="390" y2="430" stroke="#5C7892" stroke-width="5" marker-end="url(#arrowF)"/>
+  <text x="285" y="868" fill="#4D6780" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">No</text>
+
+  <line x1="770" y1="885" x2="960" y2="885" stroke="#5C7892" stroke-width="5" marker-end="url(#arrowF)"/>
+  <text x="810" y="868" fill="#4D6780" font-size="18" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Yes</text>
+
+  <rect x="960" y="842" width="180" height="86" rx="24" fill="#EAFBF4" stroke="#BDE7D1" stroke-width="3"/>
+  <text x="1050" y="880" text-anchor="middle" fill="#265D52" font-size="22" font-family="Segoe UI, Arial, sans-serif" font-weight="700">Predict Volume</text>
+  <text x="1050" y="910" text-anchor="middle" fill="#4C7067" font-size="17" font-family="Segoe UI, Arial, sans-serif">Show prediction and R2 score</text>
+</svg>
