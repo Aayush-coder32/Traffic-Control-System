@@ -83,7 +83,7 @@ Traffic-Control-System/
 6. A Random Forest regression model is trained on the processed dataset.
 7. Users enter weather and time-based inputs to predict traffic volume.
 
-## Installation
+## Installation :
 
 ```bash
 pip install -r requirements.txt
