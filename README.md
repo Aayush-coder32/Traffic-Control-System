@@ -42,7 +42,7 @@ This project is a Streamlit-based traffic analytics dashboard that explores hist
 - Seaborn
 - Scikit-learn
 
-## Dataset Columns
+## Dataset Columns :
 
 The dataset used in this project contains the following columns:
 
