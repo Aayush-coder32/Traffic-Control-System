@@ -89,7 +89,7 @@ Traffic-Control-System/
 pip install -r requirements.txt
 ```
 
-## Run the App
+## Run the App :
 
 ```bash
 streamlit run app.py
