@@ -21,7 +21,7 @@ This project is a Streamlit-based traffic analytics dashboard that explores hist
 
 ![System Flowchart](assets/system-flowchart.svg)
 
-## Features
+## Features :
 
 - Load and inspect traffic dataset
 - View raw data, dataset size, and column details
