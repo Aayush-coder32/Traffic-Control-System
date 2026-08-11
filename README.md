@@ -55,7 +55,7 @@ The dataset used in this project contains the following columns:
 - `date_time`
 - `traffic_volume`
 
-## Project Structure
+## Project Structure :
 
 ```text
 Traffic-Control-System/
