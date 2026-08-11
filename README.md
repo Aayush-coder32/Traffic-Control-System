@@ -1,4 +1,4 @@
-# Smart City Traffic Analytics System
+# Smart City Traffic Analytics System :
 
 This project is a Streamlit-based traffic analytics dashboard that explores historical traffic data, visualizes key patterns, preprocesses features, trains a machine learning model, and predicts traffic volume from user input.
 
