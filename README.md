@@ -33,7 +33,7 @@ This project is a Streamlit-based traffic analytics dashboard that explores hist
 - Predict traffic volume from custom inputs
 - Display model performance with R2 score
 
-## Tech Stack
+## Tech Stack :
 
 - Python
 - Streamlit
