@@ -95,7 +95,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## Expected Output
+## Expected Output :
 
 After launching the app, you can:
 
@@ -104,7 +104,7 @@ After launching the app, you can:
 - train the traffic prediction model
 - enter custom values and predict traffic volume
 
-## Notes
+## Notes :
 
 - The SVG demo images in this README are illustrative project visuals for presentation.
 - The model used in the current version is `RandomForestRegressor`.
