@@ -17,7 +17,7 @@ This project is a Streamlit-based traffic analytics dashboard that explores hist
 
 ![Pictorial Overview](assets/pictorial-overview.svg)
 
-## Flowchart
+## Flowchart :
 
 ![System Flowchart](assets/system-flowchart.svg)
 
