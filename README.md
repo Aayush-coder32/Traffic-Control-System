@@ -73,7 +73,7 @@ Traffic-Control-System/
     `-- temp
 ```
 
-## How It Works
+## How It Works :
 
 1. The app loads `DataSet/traffic.csv`.
 2. Users can inspect data, summaries, and charts in the dashboard.
