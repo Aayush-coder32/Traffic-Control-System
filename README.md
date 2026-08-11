@@ -2,9 +2,9 @@
 
 This project is a Streamlit-based traffic analytics dashboard that explores historical traffic data, visualizes key patterns, preprocesses features, trains a machine learning model, and predicts traffic volume from user input.
 
-## Demo Images
+## Demo Images :
 
-### 1. Dashboard Preview
+### 1. Dashboard Preview :
 ![Dashboard Preview](assets/demo-dashboard.svg)
 
 ### 2. Data Analysis Preview
