@@ -10,7 +10,7 @@ This project is a Streamlit-based traffic analytics dashboard that explores hist
 ### 2. Data Analysis Preview :
 ![Data Analysis Preview](assets/demo-analysis.svg)
 
-### 3. Prediction Preview
+### 3. Prediction Preview :
 ![Prediction Preview](assets/demo-prediction.svg)
 
 ## Pictorial Overview
