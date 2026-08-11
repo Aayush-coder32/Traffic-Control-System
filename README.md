@@ -110,6 +110,6 @@ After launching the app, you can:
 - The model used in the current version is `RandomForestRegressor`.
 - The dataset is read from `DataSet/traffic.csv`.
 
-## Author
+## Author :
 
 Developed as a Smart City Traffic Analytics and Prediction project using Streamlit and machine learning.
